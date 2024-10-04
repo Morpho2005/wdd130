@@ -1,0 +1,40 @@
+:root{
+    --primary-color: #523A28;
+    --secondary-color: #314387;
+    --accent1: #B6A491;
+    --accent2: #3E87CC;
+}
+
+header{
+    background-color: var(--accent1);
+    columns: var(--accent2);
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+
+p {
+    width: 600px;
+    background-color: var(--primary-color);
+    color: var(--accent2);
+}
+
+h1 {
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 600px;
+}
+
+h2 {
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 600px;
+}
+
+aside {
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
