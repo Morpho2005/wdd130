@@ -12,7 +12,7 @@ main {
 
 header{
     background-color: var(--accent1);
-    columns: var(--accent2);
+    color: var(--secondary-color);
 }
 
 header img{
@@ -23,12 +23,6 @@ header img{
 p {
     width: 800px;
     color: var(--accent2);
-}
-
-h1 {
-    background-color: var(--accent1);
-    color: var(--secondary-color);
-    width: 800px;
 }
 
 section img {
@@ -80,6 +74,7 @@ nav img{
 .hero article img{
     position: relative;
     width: 25%;
+    margin: 2rem;
     height: auto;
     float: right;
     float: inline-end;
@@ -87,8 +82,18 @@ nav img{
 
 .hero h1{
     position: absolute;
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 800px;
+    margin: 0;
 }
 
 .hero article{
     position: absolute;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.hero p {
+    color: black;
 }
