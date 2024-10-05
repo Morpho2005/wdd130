@@ -64,3 +64,26 @@ nav img{
     width: 80px;
     height: auto;
 }
+
+.hero {
+    position: relative;
+    height: 900px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img{
+    float: right;
+}
+
+.hero h1{
+    position: absolute;
+}
+
+.hero article{
+    position: absolute;
+}
