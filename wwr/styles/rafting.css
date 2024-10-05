@@ -77,6 +77,8 @@ nav img{
 }
 
 .hero article img{
+    width: 50%;
+    height: auto;
     float: right;
 }
 
