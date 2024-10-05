@@ -67,19 +67,22 @@ nav img{
 
 .hero {
     position: relative;
-    height: 900px;
+    height: 400px;
 }
 
 .hero img {
+    position: absolute;
     display: block;
     width: 100%;
     height: auto;
-}
+  }  
 
 .hero article img{
-    width: 50%;
+    position: relative;
+    width: 25%;
     height: auto;
     float: right;
+    float: inline-end;
 }
 
 .hero h1{
