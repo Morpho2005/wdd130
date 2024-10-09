@@ -27,7 +27,7 @@ p {
 }
 
 section img {
-    width: 200px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -80,10 +80,11 @@ section {
 .hero article img{
     position: relative;
     width: 40%;
-    margin: 2rem;
+    margin-right: 2rem;
     height: auto;
     float: right;
     float: inline-end;
+    border: 3px solid black;
 }
 
 .hero h1{
@@ -98,10 +99,31 @@ section {
 .hero article{
     position: absolute;
     margin-top: 10rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-family: 'Roboto Slab';
 }
 
 .hero p {
-    color: var(--secondary-color);
+    margin-top: 5rem;
+    color: var(--primary-colorr);
+    font-family: 'Roboto Slab';
+}
+.grid_layout {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+}
+
+.grid_layout h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid_image {
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.large_grid_image {
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
