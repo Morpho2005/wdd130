@@ -124,6 +124,5 @@ section {
 }
 
 .large_grid_image {
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: span 2;
 }
