@@ -7,34 +7,29 @@
 
 main {
     background-color: var(--primary-color);
-    width: 800px;
 }
 
 header{
+    display: grid;
+    grid-template-columns: 300px 500px;
     background-color: var(--accent1);
     color: var(--secondary-color);
-    font-family: 'Graduate'
-}
-
-header img{
-    width: 200px;
-    height: auto;
+    font-family: 'Graduate';
 }
 
 p {
-    width: 800px;
     color: var(--accent2);
 }
 
 section img {
-    max-width: 200px;
+    max-width: 13rem;
     height: auto;
 }
 
 h2 {
     background-color: var(--accent1);
     color: var(--secondary-color);
-    width: 800px;
+    width: 100%;
     font-family: 'graduate';
 }
 
@@ -44,8 +39,20 @@ aside {
 }
 
 footer {
-    width: 800px;
+    display: grid;
+    grid-template-columns: 70% 30%;
     background-color: var(--accent1);
+}
+
+footer nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
 }
 
 footer p {
@@ -53,21 +60,23 @@ footer p {
 }
 
 nav {
-    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
 }
 
-nav img{
-    width: 80px;
-    height: auto;
+nav a{
+    padding: 20px;
 }
 
 section {
     font-family: 'Roboto Slab';
+    color: var(--accent2);
 }
 
 .hero {
     position: relative;
-    height: 540px;
+    height: 46rem;
 }
 
 .hero img {
@@ -91,12 +100,13 @@ section {
     position: absolute;
     background-color: var(--accent1);
     color: var(--secondary-color);
-    width: 800px;
+    width: 100%;
     margin: 0;
     font-family: 'graduate';
 }
 
 .hero article{
+    color: black;
     position: absolute;
     margin-top: 10rem;
     margin-left: 1rem;
@@ -108,21 +118,25 @@ section {
     color: var(--primary-colorr);
     font-family: 'Roboto Slab';
 }
+
+.history_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.history_grid h2 {
+    grid-column-start: span 2;
+}
+
 .grid_layout {
     display: grid;
-    grid-template-columns: 220px 220px 220px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid_layout h2 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: span 5;
 }
 
 .grid_image {
-    margin: 10px;
     border: 3px solid black;
-}
-
-.large_grid_image {
-    grid-row-start: span 2;
 }
