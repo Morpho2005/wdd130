@@ -1,8 +1,8 @@
 :root{
     --primary-color: #523A28;
-    --secondary-color: #314387;
+    --secondary-color: #263869;
     --accent1: #B6A491;
-    --accent2: #3E87CC;
+    --accent2: #82B1DE;
 }
 
 main {
@@ -27,7 +27,7 @@ p {
 }
 
 section img {
-    max-width: 13rem;
+    max-width: 100%;
     height: auto;
 }
 
@@ -71,6 +71,7 @@ nav {
 }
 
 nav a{
+    color: var(--secondary-color);
     padding: 20px;
 }
 
