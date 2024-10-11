@@ -11,10 +11,15 @@ main {
 
 header{
     display: grid;
-    grid-template-columns: 300px 500px;
+    grid-template-columns: 1fr 4fr;
     background-color: var(--accent1);
     color: var(--secondary-color);
     font-family: 'Graduate';
+}
+
+header img {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 p {
