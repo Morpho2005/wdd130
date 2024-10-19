@@ -9,17 +9,39 @@ main {
     background-color: var(--primary-color);
 }
 
+h1, h2{
+    background-color: var(--accent1);
+    color: var(--secondary-color);
+    width: 100%;
+    margin: 0;
+    font-family: 'graduate';
+}
+
+textarea{
+    width: 100%;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
 header{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 9fr;
     background-color: var(--accent1);
     color: var(--secondary-color);
     font-family: 'Graduate';
 }
 
 header img {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -29,13 +51,6 @@ p {
 section img {
     max-width: 100%;
     height: auto;
-}
-
-h2 {
-    background-color: var(--accent1);
-    color: var(--secondary-color);
-    width: 100%;
-    font-family: 'graduate';
 }
 
 aside {
@@ -104,11 +119,6 @@ section {
 
 .hero h1{
     position: absolute;
-    background-color: var(--accent1);
-    color: var(--secondary-color);
-    width: 100%;
-    margin: 0;
-    font-family: 'graduate';
 }
 
 .hero article{
@@ -145,4 +155,14 @@ section {
 
 .grid_image {
     border: 3px solid black;
+}
+
+.emp_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.emp_grid h2 {
+    grid-column-start: span 3;
 }
