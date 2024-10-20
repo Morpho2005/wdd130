@@ -162,7 +162,6 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
 .emp_grid h2 {
     grid-column-start: span 3;
 }
