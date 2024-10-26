@@ -58,16 +58,25 @@ aside {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+button {
+    font-family: 'Roboto Slab';
+}
+
 footer {
     display: grid;
     grid-template-columns: 70% 30%;
     background-color: var(--accent1);
+    font-family: 'Roboto Slab';
 }
 
 footer nav {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
+}
+
+a {
+    color: var(--accent2);
 }
 
 footer img {
@@ -97,7 +106,7 @@ section {
 
 .hero {
     position: relative;
-    height: 46rem;
+    height: 48rem;
 }
 
 .hero img {
@@ -164,4 +173,20 @@ section {
 
 .emp_grid h2 {
     grid-column-start: span 3;
+}
+
+.index_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.index_grid a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trips_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
